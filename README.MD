@@ -7,6 +7,7 @@
 </div>
 
 ### You can use my template, which is available in the [**CV Template**](./CV%20Template.tex) file. Feel free to customize it according to your needs, or **read the tutorial**.
+### Lastly, don’t forget to review your CV for [ATS optimization](https://www.resumego.net/resume-checker/)
 
 ## 📚 Table of Contents
 
