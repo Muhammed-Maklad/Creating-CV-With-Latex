@@ -15,7 +15,15 @@
 </div>
 
 ### You can use my template, which is available in the [**CV Template**](./CV%20Template.tex) file. Feel free to customize it according to your needs, or **read the tutorial**.
-### Lastly, don’t forget to review your CV for [ATS optimization](https://www.resumego.net/resume-checker/)
+
+1. Go to **[overleaf.com](https://www.overleaf.com)**
+2. Create a **free account**
+3. Click **New Project → Blank Project**
+4. Copy the code from the [**CV Template**](./CV%20Template.tex) paste it into your project, and replace the content with your own information 
+
+<br>
+
+> ### Lastly, don’t forget to review your CV for [ATS optimization](https://www.resumego.net/resume-checker/)
 
 ## 📚 Table of Contents
 
@@ -85,9 +93,7 @@ Overleaf is a free, browser-based LaTeX editor. No installation, no terminal  ju
 
 1. Go to **[overleaf.com](https://www.overleaf.com)**
 2. Create a **free account**
-3. Click **New Project → From Template**
-4. Search **"CV"** or **"Resume"** and pick a design you like
-5. Edit the placeholder text  the design stays perfect automatically!
+3. Click **New Project → Blank Project**
 
 > 💡 **Tip:** Overleaf compiles your document instantly and shows a live PDF preview on the right side of the screen. No setup needed.
 
