@@ -1,12 +1,9 @@
 ![Head](./Imag/Head.jpg)
 
 <div align="center">
- 
 
- 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammed%20Gamal%20Maklad-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-maklad/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammed%20Gamal%20Maklad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-maklad/)
 
- 
 </div>
 
 ### You can use my template, which is available in the [**CV Template**](./CV%20Template.tex) file. Feel free to customize it according to your needs, or **read the tutorial**.
