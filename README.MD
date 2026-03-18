@@ -1,233 +1,13 @@
+![Head](./Imag/Head.jpg)
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+<div align="center">
+ 
 
-  :root {
-    --ink: #1a1814;
-    --muted: #6b6860;
-    --rule: #d4cfc8;
-    --accent: #2a2420;
-    --highlight: #067ac5;
-    --bg-badge: #f5f1eb;
-    --border-badge: #ddd8d0;
-  }
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammed%20Gamal%20Maklad-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-maklad/)
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --ink: #e8e4dc;
-      --muted: #9a968e;
-      --rule: #3a3630;
-      --accent: #e8e4dc;
-      --highlight: #067ac5;
-      --bg-badge: #28251f;
-      --border-badge: #3a3630;
-    }
-  }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  .cover {
-    font-family: 'DM Mono', monospace;
-    padding: 48px 40px 40px;
-    max-width: 680px;
-    color: var(--ink);
-    position: relative;
-  }
-
-  .cover::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, var(--highlight) 0%, transparent 100%);
-  }
-
-  .eyebrow {
-    font-size: 10px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 18px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .eyebrow::after {
-    content: '';
-    flex: 1;
-    height: 0.5px;
-    background: var(--rule);
-  }
-
-  .title-block {
-    margin-bottom: 20px;
-  }
-
-  .main-title {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 1.1;
-    color: var(--accent);
-    letter-spacing: -0.02em;
-    margin-bottom: 6px;
-  }
-
-  .main-title em {
-    font-style: italic;
-    font-weight: 400;
-    color: var(--highlight);
-  }
-
-  .subtitle {
-    font-family: 'Playfair Display', Georgia, serif;
-    font-size: 15px;
-    font-style: italic;
-    color: var(--muted);
-    font-weight: 400;
-    line-height: 1.6;
-  }
-
-  .divider {
-    height: 0.5px;
-    background: var(--rule);
-    margin: 24px 0;
-  }
-
-  .badges-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 28px;
-  }
-
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 11px;
-    padding: 5px 10px;
-    border-radius: 4px;
-    border: 0.5px solid var(--border-badge);
-    background: var(--bg-badge);
-    color: var(--muted);
-    font-weight: 400;
-    font-family: 'DM Mono', monospace;
-  }
-
-  .badge .num {
-    font-weight: 500;
-    color: var(--highlight);
-  }
-
-  .badge-level {
-    border-color: var(--highlight);
-    color: var(--highlight);
-    background: transparent;
-    font-weight: 500;
-  }
-
-  .meta-block {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 14px;
-  }
-
-  .author-line {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .author-avatar {
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    background: var(--highlight);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    font-weight: 500;
-    color: #fff;
-    flex-shrink: 0;
-  }
-
-  .author-text {
-    font-size: 12px;
-    color: var(--muted);
-    line-height: 1.5;
-  }
-
-  .author-name {
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--ink);
-  }
-
-  .linkedin-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 11px;
-    color: var(--muted);
-    text-decoration: none;
-    padding: 6px 12px;
-    border: 0.5px solid var(--border-badge);
-    border-radius: 4px;
-    background: var(--bg-badge);
-    transition: border-color 0.15s;
-  }
-
-  .li-icon {
-    width: 14px;
-    height: 14px;
-    fill: #0077B5;
-    flex-shrink: 0;
-  }
-</style>
-
-<div class="cover">
-  <div class="eyebrow">A practical guide</div>
-
-  <div class="title-block">
-    <div class="main-title">LaTeX for <em>CV</em></div>
-    <div class="subtitle">Everything you need to build a professional CV in LaTeX  explained simply.</div>
-  </div>
-
-  <div class="divider"></div>
-
-  <div class="badges-row">
-    <span class="badge badge-level">Beginner Friendly</span>
-    <span class="badge"><span class="num">8</span> Sections</span>
-    <span class="badge"><span class="num">20+</span> Commands</span>
-    <span class="badge"><span class="num">9</span> Packages</span>
-    <span class="badge"><span class="num">25+</span> Code Snippets</span>
-    <span class="badge">100% Free</span>
-  </div>
-
-  <div class="divider"></div>
-
-  <div class="meta-block">
-    <div class="author-line">
-      <div class="author-avatar">MG</div>
-      <div>
-        <div class="author-name">Muhammed Gamal Maklad</div>
-        <div class="author-text">Author</div>
-      </div>
-    </div>
-    <a class="linkedin-link" href="https://www.linkedin.com/in/muhammed-maklad/" target="_blank">
-      <svg class="li-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      LinkedIn
-    </a>
-  </div>
+ 
 </div>
-
-
----
 
 ## 📚 Table of Contents
 
@@ -278,7 +58,7 @@ LaTeX is a typesetting system used by engineers, academics, and researchers worl
 | ✏️ **Easy to update** | Change content without ever breaking the design |
 | 🆓 **Free templates** | Thousands of ready-made CV designs on Overleaf |
 
-### How bold text works — a quick comparison
+### How bold text works  a quick comparison
 
 | Tool | How you make text bold |
 |---|---|
@@ -291,7 +71,7 @@ LaTeX is a typesetting system used by engineers, academics, and researchers worl
 
 ### ✅ Recommended: Use Overleaf (No Installation)
 
-Overleaf is a free, browser-based LaTeX editor. No installation, no terminal — just open and write.
+Overleaf is a free, browser-based LaTeX editor. No installation, no terminal  just open and write.
 
 **Step-by-step:**
 
@@ -452,7 +232,7 @@ Use lines under section titles to visually separate CV sections:
 
 ### 4.7 Aligning Dates to the Right
 
-Classic CV layout — job title on the left, date pushed to the far right:
+Classic CV layout  job title on the left, date pushed to the far right:
 
 ```latex
 \noindent
@@ -721,15 +501,55 @@ These symbols have a special meaning in LaTeX. Add `\` before them to print them
 
 > 💡 **Rule of thumb:** If a character looks special in programming, it's probably special in LaTeX too. When in doubt, add a backslash `\` before it.
 
----
 
 <div align="center">
  
 ---
  
-*Written & designed by **Muhammed Gamal Maklad***
- 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammed%20Gamal%20Maklad-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-maklad/)
+## Show Your Support
 
- 
+If you find this repository helpful, please consider:
+
+<table>
+<tr>
+<td align="center" width="33%">
+⭐ <b>Star the Repo</b><br>
+Help others discover it
+</td>
+<td align="center" width="33%">
+🔀 <b>Contribute</b><br>
+Add your solutions
+</td>
+<td align="center" width="33%">
+📢 <b>Share</b><br>
+Spread the word
+</td>
+</tr>
+</table>
+
+---
+
+## 📄 License
+
+**Full license:** [LICENSE](LICENSE)
+
+
+
+---
+
+<div align="center">
+
+### 🌟 **Thank You for Visiting!** 🌟
+
+*"The only way to learn a new programming language is by writing programs in it."* - Dennis Ritchie
+
+**Keep coding, keep learning, keep growing** 🚀
+
+---
+
+**Made with ❤️ by [Muhammed Maklad](https://github.com/Muhammed-Maklad)**
+
+[![GitHub followers](https://img.shields.io/github/followers/Muhammed-Maklad?style=social)](https://github.com/Muhammed-Maklad)
+[![GitHub stars](https://img.shields.io/github/stars/Muhammed-Maklad/Problem-Solving?style=social)](https://github.com/Muhammed-Maklad/Creating-CV-With-Latex)
+
 </div>
