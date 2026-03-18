@@ -1,0 +1,131 @@
+\documentclass[10pt,a4paper]{article}
+
+% ─── PACKAGES ─────────────────────────────────────────────
+\usepackage[margin=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+
+% ─── COLORS ───────────────────────────────────────────────
+\definecolor{myblack}{RGB}{0,0,0}
+\definecolor{myblue}{RGB}{0,102,204}
+
+% ─── GENERAL SETTINGS ─────────────────────────────────────
+\pagenumbering{gobble}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em}
+
+\titlespacing{\section}{0pt}{10pt}{4pt}
+\titleformat{\section}
+  {\large\bfseries\color{myblack}}
+  {}{0em}{}[{\color{myblack}\titlerule[0.8pt]}]
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=myblue
+}
+
+% ─── CUSTOM COMMANDS (Reusable) ───────────────────────────
+\newcommand{\entryheader}[2]{%
+  \noindent\textbf{#1}\hfill{\small\textit{#2}}%
+}
+
+\newcommand{\entrysubheader}[1]{%
+  \noindent{\textit{#1}}%
+}
+
+% ─────────────────────────────────────────────────────────
+\begin{document}
+
+% ─── HEADER (EDIT THIS FIRST) ─────────────────────────────
+\begin{center}
+  {\LARGE\bfseries Your Full Name Here}\\[4pt]
+  {\large\textit{Your Job Title Here}}\\[8pt]
+
+  \small
+  \faMapMarker~Your City, Country \quad
+  \faEnvelope~\href{mailto:email@example.com}{email@example.com} \quad
+  \faPhone~0123456789 \\[4pt]
+
+  \faLinkedin~\href{https://linkedin.com/in/username}{linkedin.com/in/username} \quad
+  \faGithub~\href{https://github.com/username}{github.com/username} \quad
+  \faGlobe~\href{https://yourwebsite.com}{yourwebsite.com}
+\end{center}
+
+% ─── SUMMARY ─────────────────────────────────────────────
+\section*{Summary}
+
+Write a short professional summary about yourself.
+
+Example:
+\begin{itemize}
+\item Who you are (Student / Developer / Analyst)
+\item Your main skills
+\item What value you bring
+\end{itemize}
+
+% ─── EXPERIENCE ──────────────────────────────────────────
+\section*{Experience}
+
+\entryheader{Job Title / Role}{Start Date -- End Date}\\
+\entrysubheader{Company Name, Location}
+
+\begin{itemize}
+\item Write achievement using action verbs (Designed, Built, Developed)
+\item Focus on results (improved performance, reduced time, etc.)
+\item Keep it concise and measurable if possible
+\end{itemize}
+
+\vspace{6pt}
+
+\entryheader{Another Role}{Start Date -- End Date}\\
+\entrysubheader{Company Name, Location}
+
+\begin{itemize}
+\item Describe what you did
+\item Mention tools (Python, Power BI, SQL...)
+\item Show impact
+\end{itemize}
+
+% ─── PROJECTS ────────────────────────────────────────────
+\section*{Projects}
+
+\entryheader{Project Name}{Year}\\
+{\small \href{https://github.com/project-link}{Project Link}}
+
+\begin{itemize}
+\item Explain what the project does
+\item Mention technologies used
+\item Highlight results or features
+\end{itemize}
+
+% ─── SKILLS ──────────────────────────────────────────────
+\section*{Technical Skills}
+
+\begin{itemize}
+\item \textbf{Category 1:} Skill1, Skill2, Skill3
+\item \textbf{Category 2:} Skill1, Skill2
+\item \textbf{Category 3:} Skill1, Skill2
+\end{itemize}
+
+% ─── EDUCATION ───────────────────────────────────────────
+\section*{Education}
+
+\entryheader{Degree Name}{Year}\\
+\entrysubheader{University Name \quad GPA: 0.00 / 4.00}
+
+\begin{itemize}
+\item Add relevant courses if needed
+\end{itemize}
+
+% ─── LANGUAGES ───────────────────────────────────────────
+\section*{Languages}
+
+\begin{itemize}
+\item \textbf{Language 1:} Level (e.g., Native)
+\item \textbf{Language 2:} Level
+\end{itemize}
+
+\end{document}

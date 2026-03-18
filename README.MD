@@ -529,13 +529,6 @@ Spread the word
 
 ---
 
-## 📄 License
-
-**Full license:** [LICENSE](LICENSE)
-
-
-
----
 
 <div align="center">
 
@@ -550,6 +543,6 @@ Spread the word
 **Made with ❤️ by [Muhammed Maklad](https://github.com/Muhammed-Maklad)**
 
 [![GitHub followers](https://img.shields.io/github/followers/Muhammed-Maklad?style=social)](https://github.com/Muhammed-Maklad)
-[![GitHub stars](https://img.shields.io/github/stars/Muhammed-Maklad/Problem-Solving?style=social)](https://github.com/Muhammed-Maklad/Creating-CV-With-Latex)
+[![GitHub stars](https://img.shields.io/github/stars/Muhammed-Maklad/Creating-CV-With-Latex?style=social)](https://github.com/Muhammed-Maklad/Creating-CV-With-Latex)
 
 </div>
