@@ -9,6 +9,8 @@
  
 </div>
 
+### You can use my template, which is available in the [**CV Template**](./CV%20Template.tex) file. Feel free to customize it according to your needs, or **read the tutorial**.
+
 ## 📚 Table of Contents
 
 1. [Why use LaTeX?](#1-why-use-latex)
