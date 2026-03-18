@@ -1,4 +1,12 @@
 ![Head](./Imag/Head.jpg)
+<div align="center">
+
+
+[![GitHub Stars](https://img.shields.io/github/stars/Muhammed-Maklad/Creating-CV-With-Latex?style=for-the-badge&logo=github)](https://github.com/Muhammed-Maklad/Creating-CV-With-Latex)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
+
+</div>
 
 <div align="center">
 
